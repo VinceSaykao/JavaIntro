@@ -20,11 +20,13 @@ public class Main {
         // String message = "Hello World" + "!!";
         // System.out.println(message.replace("!","~"));
 
-        int[] numbers = new int[5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-    
-        System.out.println(Arrays.toString(numbers));
+        // int[] numbers = new int[5];
+        // numbers[0] = 1;
+        // numbers[1] = 2;
+        // System.out.println(Arrays.toString(numbers));
+
+        int[] numbers = {2,3,4,1,2};
+        System.out.println(numbers.length); 
     }
 }
 
