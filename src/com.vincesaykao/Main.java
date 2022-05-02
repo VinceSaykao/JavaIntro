@@ -1,5 +1,7 @@
+import java.util.Arrays;
 import java.util.Date;
 import java.awt.*;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -9,12 +11,20 @@ public class Main {
         // // console.log(age);
         // Date now = new Date();
         // System.out.println(now);
+
         // Point point1 = new Point(1, 1);
         // Point point2 = point1;
         // point1.x = 2;
         // System.out.println(point2);
-        String message = "Hello World" + "!!";
-        System.out.println(message.replace("!","~"));
+
+        // String message = "Hello World" + "!!";
+        // System.out.println(message.replace("!","~"));
+
+        int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+    
+        System.out.println(Arrays.toString(numbers));
     }
 }
 
