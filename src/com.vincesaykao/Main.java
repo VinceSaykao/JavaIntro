@@ -25,8 +25,16 @@ public class Main {
         // numbers[1] = 2;
         // System.out.println(Arrays.toString(numbers));
 
-        int[] numbers = {2,3,4,1,2};
-        System.out.println(numbers.length); 
+        // int[] numbers = {2,3,4,1,2};
+        // System.out.println(numbers.length); 
+
+        // int[][] numbers = {{1,2,3}, {3,2,3}};
+        // numbers[0][0] = 1;
+        // System.out.println(Arrays.deepToString(numbers));
+
+        // final float PI = 3.14F;
+
+    
     }
 }
 
