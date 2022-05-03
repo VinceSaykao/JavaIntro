@@ -73,9 +73,18 @@ public class Main {
 
         // Logical Operator
 
-        int temperature = 12;
-        boolean isWarm = temperature > 20 && temperature < 30;
-        System.out.println(isWarm);
+        // int temperature = 12;
+        // boolean isWarm = temperature > 20 && temperature < 30;
+        // System.out.println(isWarm);
+
+        // int temp = 1;
+        // if (temp > 30) {
+        //     System.out.println("It's a hot day, drink water!");
+        // } else if (temp > 20 && temp <= 30) {
+        //     System.out.println("Beautiful day");
+        // } else {
+        //     System.out.println("Brrr cold");
+        // };
 
 
 
