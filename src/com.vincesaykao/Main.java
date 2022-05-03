@@ -119,6 +119,9 @@ public class Main {
         // else if (number % 5 == 0)
         //     System.out.println("Fizz");
 
+        for (int i=0; i<3; i++)
+            System.out.println("Hello World");
+
 
     }
 }
