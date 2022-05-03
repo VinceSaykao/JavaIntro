@@ -119,10 +119,29 @@ public class Main {
         // else if (number % 5 == 0)
         //     System.out.println("Fizz");
 
-        for (int i=0; i<3; i++)
-            System.out.println("Hello World");
+        // for (int i=5; i>0; i--)
+        //     System.out.println("Hello World" + i);
 
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
 
+        while(true) {
+            System.out.println("Input: " + input);
+            input = scanner.next().toLowerCase();
+            // System.out.println(input);
+            if(input.equals("pass"))
+            continue;
+            if(input.equals("quit"))
+            break;
+        }
+
+        // do {
+
+        // } while (!input.equals("quit"));
+        // System.out.println("Input: ");
+        // input = scanner.next().toLowerCase();
+        // System.out.println(input);
+        
     }
 }
 
