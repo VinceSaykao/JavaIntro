@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 import java.awt.*;
-
+import java.text.NumberFormat;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Main {
         // System.out.println(Arrays.toString(numbers));
 
         // int[] numbers = {2,3,4,1,2};
-        // System.out.println(numbers.length); 
+        // System.out.println(numbers.length);
 
         // int[][] numbers = {{1,2,3}, {3,2,3}};
         // numbers[0][0] = 1;
@@ -39,19 +39,39 @@ public class Main {
         // x += 1;
         // System.out.println(x);
 
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.println("Name: ");
+        // String name = scanner.nextLine().trim();
+        // System.out.println("You are" + " " + name);
+
+        final byte MONTHS_IN_YEAR = 12;
+        final byte PERCENT = 100;
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Name: ");
-        String name = scanner.nextLine().trim();
-        System.out.println("You are" + " " + name);
 
+        System.out.println("Principal: ");
+        int principal = scanner.nextInt();
 
-    
+        System.out.print("Annual Interest Rate: ");
+        float annualInterest = scanner.nextFloat();
+        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+
+        System.out.println("Period (Years): ");
+        byte years = scanner.nextByte();
+        int numberOfPayments = years * MONTHS_IN_YEAR;
+
+        double mortage = principal
+                * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+                / (Math.pow(1 + monthlyInterest, numberOfPayments));
+        String mortageFormatted = NumberFormat.getCurrencyInstance().format(mortage);
+        System.out.println("Mortage: " + mortageFormatted);
+
     }
 }
 
 // primitive type, we define the data, store number, characters, booleans
-// reference type, we create referenced data that has the address to that value data, store complex objects (date, mail messages)
-// methods: 
-// indexOf() = index of start character 
-// replace() = replace target:, replacement: 
-
+// reference type, we create referenced data that has the address to that value
+// data, store complex objects (date, mail messages)
+// methods:
+// indexOf() = index of start character
+// replace() = replace target:, replacement:
