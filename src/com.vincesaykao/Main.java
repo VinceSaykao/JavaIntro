@@ -122,18 +122,18 @@ public class Main {
         // for (int i=5; i>0; i--)
         //     System.out.println("Hello World" + i);
 
-        String input = "";
-        Scanner scanner = new Scanner(System.in);
+        // String input = "";
+        // Scanner scanner = new Scanner(System.in);
 
-        while(true) {
-            System.out.println("Input: " + input);
-            input = scanner.next().toLowerCase();
-            // System.out.println(input);
-            if(input.equals("pass"))
-            continue;
-            if(input.equals("quit"))
-            break;
-        }
+        // while(true) {
+        //     System.out.println("Input: " + input);
+        //     input = scanner.next().toLowerCase();
+        //     // System.out.println(input);
+        //     if(input.equals("pass"))
+        //     continue;
+        //     if(input.equals("quit"))
+        //     break;
+        // }
 
         // do {
 
@@ -141,6 +141,66 @@ public class Main {
         // System.out.println("Input: ");
         // input = scanner.next().toLowerCase();
         // System.out.println(input);
+
+        // int access_level = 1;
+
+        // switch(access_level) {
+
+        //     case 3: 
+        //     System.out.println("you 3");
+        //     break;
+        //     case 2:
+        //     System.out.println("you 2");
+        //     default:
+        //     System.out.println("none");
+        // }
+
+        // String[] fruits = {"apple","mango","orange"};
+        // for (int i=0;i<fruits.length;i++) {
+        //     System.out.println(fruits[i]);
+        // }; // end of for loop
+        // for(String fruit : fruits)
+        // System.out.println(fruit);
+
+    //     final byte MONTHS_IN_YEAR = 12;
+    //     final byte PERCENT = 100;
+
+    //     int principal = 0;
+    //     float monthlyInterest = 0;
+    //     int numberOfPayments = 0;
+    //     Scanner scanner = new Scanner(System.in);
+
+    //     while(true) {
+    //         System.out.println("Principal: ");
+    //         int principal = scanner.nextInt();
+    //         if (principal >= 1000 && principal <= 1_000_000 )
+    //             break;
+    //         System.out.println("enter value between 1000 and 1000000");
+    //     }
+
+    //     while(true) {
+    //         System.out.println("annual interest rate: ");
+    //         float annualInterest = scanner.nextFloat();
+    //         if (annualInterest >= 1 && annualInterest <= 30)
+    //             break;
+    //         float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR
+    
+
+    //     System.out.println("period (years): ");
+    //     byte years = scanner.nextByte();
+    //     if ( years >= 1 && year <= 30) {
+    //         int numberOfPayments = years * MONTHS_IN_YEAR;
+    //         break;
+
+    //     }
+    //     System.out.println("enter value between 1 and 30");
+    // }
+    //     double mortage = principal
+    //             * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+    //             / (Math.pow(1 + monthlyInterest, numberOfPayments));
+    //     String mortageFormatted = NumberFormat.getCurrencyInstance().format(mortage);
+    //     System.out.println("Mortage: " + mortageFormatted);
+        
         
     }
 }
