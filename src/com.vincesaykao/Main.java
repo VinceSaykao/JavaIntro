@@ -47,29 +47,36 @@ public class Main {
 
         // Mortage Calculator START *********
 
-        final byte MONTHS_IN_YEAR = 12;
-        final byte PERCENT = 100;
+        // final byte MONTHS_IN_YEAR = 12;
+        // final byte PERCENT = 100;
 
-        Scanner scanner = new Scanner(System.in);
+        // Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Principal: ");
-        int principal = scanner.nextInt();
+        // System.out.println("Principal: ");
+        // int principal = scanner.nextInt();
 
-        System.out.print("Annual Interest Rate: ");
-        float annualInterest = scanner.nextFloat();
-        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
+        // System.out.print("Annual Interest Rate: ");
+        // float annualInterest = scanner.nextFloat();
+        // float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
 
-        System.out.println("Period (Years): ");
-        byte years = scanner.nextByte();
-        int numberOfPayments = years * MONTHS_IN_YEAR;
+        // System.out.println("Period (Years): ");
+        // byte years = scanner.nextByte();
+        // int numberOfPayments = years * MONTHS_IN_YEAR;
 
-        double mortage = principal
-                * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
-                / (Math.pow(1 + monthlyInterest, numberOfPayments));
-        String mortageFormatted = NumberFormat.getCurrencyInstance().format(mortage);
-        System.out.println("Mortage: " + mortageFormatted);
+        // double mortage = principal
+        //         * (monthlyInterest * Math.pow(1 + monthlyInterest, numberOfPayments))
+        //         / (Math.pow(1 + monthlyInterest, numberOfPayments));
+        // String mortageFormatted = NumberFormat.getCurrencyInstance().format(mortage);
+        // System.out.println("Mortage: " + mortageFormatted);
 
         // Mortage Calculator END *********
+
+        // Logical Operator
+
+        int temperature = 12;
+        boolean isWarm = temperature > 20 && temperature < 30;
+        System.out.println(isWarm);
+
 
 
 
