@@ -41,7 +41,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine().trim();
         System.out.println("You are" + " " + name);
 
 
