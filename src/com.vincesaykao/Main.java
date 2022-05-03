@@ -86,8 +86,25 @@ public class Main {
         //     System.out.println("Brrr cold");
         // };
 
+        // int income = 120_000;
+        // // boolean hasHighIncome = (income > 100_000);
+        // String className = (income > 100_000 ? "First" : "Economy");
+        // System.out.println(className);
 
+        String role = "admin";
 
+        switch (role) {
+            case "admin": 
+                System.out.println("You are an admin");
+            break;
+
+            case "mod":
+                System.out.println("You are a mod");
+            break;
+            
+            default:
+            System.out.println("You are a guest");
+        }
 
     }
 }
