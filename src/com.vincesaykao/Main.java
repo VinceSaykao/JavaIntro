@@ -44,6 +44,9 @@ public class Main {
         // String name = scanner.nextLine().trim();
         // System.out.println("You are" + " " + name);
 
+
+        // Mortage Calculator START *********
+
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
@@ -65,6 +68,10 @@ public class Main {
                 / (Math.pow(1 + monthlyInterest, numberOfPayments));
         String mortageFormatted = NumberFormat.getCurrencyInstance().format(mortage);
         System.out.println("Mortage: " + mortageFormatted);
+
+        // Mortage Calculator END *********
+
+
 
     }
 }
