@@ -39,10 +39,10 @@ public class Main {
         // x += 1;
         // System.out.println(x);
 
-        // Scanner scanner = new Scanner(System.in);
-        // System.out.println("Age: ");
-        // byte age = scanner.nextByte();
-        // System.out.println("You are" + " " + age);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Name: ");
+        String name = scanner.next();
+        System.out.println("You are" + " " + name);
 
 
     
