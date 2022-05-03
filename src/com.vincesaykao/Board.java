@@ -1,11 +1,6 @@
 import java.util.Arrays;
 
-/**
- * Write a description of class Board here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Board
 {
     private final int MAX_ROWS;

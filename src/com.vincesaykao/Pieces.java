@@ -1,10 +1,4 @@
 
-/**
- * Write a description of class Pieces here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Pieces extends Player
 {
     private final int row;
